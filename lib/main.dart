@@ -27,6 +27,7 @@ class _ProfileState extends State<Profile> {
             counter = counter + 1;
           });
         },
+        shape: CircleBorder(),
         child: Container(
           width: 60,
           height: 60,
