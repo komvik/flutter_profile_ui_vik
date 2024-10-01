@@ -36,7 +36,7 @@ class _ProfileState extends State<Profile> {
           decoration: BoxDecoration(
               shape: BoxShape.circle,
               gradient: LinearGradient(
-                colors: [Colors.deepPurple[800],Colors.deepPurpleAccent],)),
+                colors: [Colors.deepPurple.shade800,Colors.deepPurpleAccent],)),
         ),
       ),
       body: Stack(
@@ -49,7 +49,7 @@ class _ProfileState extends State<Profile> {
                   width: double.infinity,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [Colors.deepPurple[800],Colors.deepPurpleAccent],
+                      colors: [Colors.purple.shade800,Colors.deepPurpleAccent],
                     ),
                   ),
                   child: Column(
